@@ -71,7 +71,7 @@
     Spicetify.showNotification(`Custom In: ${Spicetify.Player.formatTime(points.in)} Custom out: ${Spicetify.Player.formatTime(points.out)}`)
   }
   new Spicetify.ContextMenu.Item(
-    "Set start",
+    "Set in",
     () => {
       start = mouseOnBarPercent;
       if (end === null || start > end) {
@@ -85,7 +85,7 @@
   ).register();
 
   new Spicetify.ContextMenu.Item(
-    "Set end",
+    "Set out",
     () => {
       end = mouseOnBarPercent;
       if (start === null || end < start) {
