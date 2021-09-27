@@ -13,7 +13,7 @@
    */
   const DEFAULT_URI = "spotify:special:skip"
   let points, song
-  const bar = document.querySelector(".progressbar .progress-bar");
+  const bar = document.querySelector(".progress-bar");
   bar.setAttribute("data-contextmenu", "");
   bar.setAttribute("data-uri", DEFAULT_URI);
   const style = document.createElement("style");
